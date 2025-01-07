@@ -33,6 +33,7 @@ classifiers = [
 ]
 
 [project.urls]
+Documentation = "https://github.com/groaking/pyvisca/blob/master/README.md"
 Homepage = "https://github.com/groaking/pyvisca"
 Repository = "https://github.com/groaking/pyvisca.git"
 Changelog = "https://github.com/groaking/pyvisca/blob/master/CHANGELOG.md"
