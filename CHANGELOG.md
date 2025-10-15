@@ -1,5 +1,9 @@
 # pyvisca CHANGELOG
 
+## v0.1.6
+
+- Fix: Removed obsolete `scipy` dependency
+
 ## v0.1.5
 
 - New: Ability to get power/stand-by state

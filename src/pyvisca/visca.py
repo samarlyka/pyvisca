@@ -9,7 +9,6 @@
 # VISCA command documentation was obtained from Crestron
 # -> SOURCE: https://docs.crestron.com/en-us/9326/Content/Topics/Configuration/VISCA-Comands.htm
 
-from scipy.interpolate import interp1d
 from time import sleep
 import binascii
 import re
@@ -113,9 +112,7 @@ class PTZ(Camera):
     Further documentation on the VISCA protocol (broken link):
     https://pro.sony.com/bbsccms/assets/files/mkt/remotemonitoring/manuals/rm-EVID100_technical_manual.pdf
     """
-
-    interp = None
-
+    
     values = ["1161h", "116Dh", "122Ah", "123Ch", "12F3h", "13C2h", "151Eh", "1536h", "1844h", "226Fh", "3F2Ah",
               "40AAh", "62C9h", "82C1h"]
     y = [
@@ -141,7 +138,6 @@ class PTZ(Camera):
         :param output: Serial port string. (default: 'COM1')
         :type output: str
         """
-        self.interp = interp1d([int(f[:-1], 16) for f in self.values], self.y)
         super(self.__class__, self).__init__(output=output)
 
     def _move(self, string, a1, a2):

@@ -1,6 +1,6 @@
 [project]
 name = "pyvisca"
-version = "0.1.5"
+version = "0.1.6"
 authors = [
     { name = "Samarthya Lykamanuella", email = "93555329+groaking@users.noreply.github.com" },
 ]
@@ -9,7 +9,6 @@ maintainers = [
 ]
 dependencies = [
   "pyserial",
-  "scipy",
 ]
 license = {file = "LICENSE"}
 keywords = ["Sony", "VISCA", "PTZ", "camera", "CCTV", "pan tilt zoom", "serial monitor", "digital camera", "serial", "control", "lens", "interface"]
