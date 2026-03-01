@@ -1,5 +1,9 @@
 # pyvisca CHANGELOG
 
+## v0.1.8
+
+- Fixed: (Minor) README.md links pointing to deprecated URLs
+
 ## v0.1.7
 
 - Fixed: (Minor) PyPI links pointing to deprecated URLs
