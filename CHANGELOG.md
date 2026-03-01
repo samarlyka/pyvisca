@@ -1,5 +1,9 @@
 # pyvisca CHANGELOG
 
+## v0.1.7
+
+- Fixed: (Minor) PyPI links pointing to deprecated URLs
+
 ## v0.1.6
 
 - Fix: Removed obsolete `scipy` dependency

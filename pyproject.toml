@@ -1,11 +1,11 @@
 [project]
 name = "pyvisca"
-version = "0.1.6"
+version = "0.1.7"
 authors = [
-    { name = "Samarthya Lykamanuella", email = "93555329+groaking@users.noreply.github.com" },
+    { name = "Samarthya Lykamanuella", email = "lykamanuella@outlook.com" },
 ]
 maintainers = [
-    { name = "Samarthya Lykamanuella", email = "93555329+groaking@users.noreply.github.com" },
+    { name = "Samarthya Lykamanuella", email = "lykamanuella@outlook.com" },
 ]
 dependencies = [
   "pyserial",
@@ -32,11 +32,11 @@ classifiers = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/groaking/pyvisca/blob/master/README.md"
-Homepage = "https://github.com/groaking/pyvisca"
-Repository = "https://github.com/groaking/pyvisca.git"
-Changelog = "https://github.com/groaking/pyvisca/blob/master/CHANGELOG.md"
-Issues = "https://github.com/groaking/pyvisca/issues"
+Documentation = "https://github.com/samarlyka/pyvisca/blob/master/README.md"
+Homepage = "https://github.com/samarlyka/pyvisca"
+Repository = "https://github.com/samarlyka/pyvisca.git"
+Changelog = "https://github.com/samarlyka/pyvisca/blob/master/CHANGELOG.md"
+Issues = "https://github.com/samarlyka/pyvisca/issues"
 
 [build-system]
 requires = ["hatchling"]
