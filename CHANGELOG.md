@@ -1,5 +1,10 @@
 # pyvisca CHANGELOG
 
+## v0.1.9
+
+- New Contributor: Eerolz (https://github.com/Eerolz)
+- New: Added the ability to specify the terminator byte for the `PTZ.inq()` command
+
 ## v0.1.8
 
 - Fixed: (Minor) README.md links pointing to deprecated URLs
